@@ -17,9 +17,9 @@ Grey dark 3: #999
 */
 
 :root{
-  --color-primary: #eb2f64;
-  --color-primary-light: #FF3366;
-  --color-primary-dark: #BA265D;
+  --color-primary: #03A9F4;
+  --color-primary-light: #7cd0f7;
+  --color-primary-dark: #0288D1;
   --color-grey-light-1: #faf9f9;
   --color-grey-light-2: #f4f2f2;
   --color-grey-light-3: #f0eeee;
@@ -35,9 +35,12 @@ Grey dark 3: #999
   --line: 1px solid var(--color-grey-light-2);
 }
 
-$bp-largest: 75em;    //1200px i.e. 1200/16 = 75em
-$bp-large: 68.75em;   //1100px i.e 1100/16 = 68.75em
-$bp-medium: 56.25em;  //900px i.e 900/16 = 56.5em
+//BreakPoints
+$bp-largest: 75em;     //1200px i.e. 1200/16 = 75em
+$bp-large: 68.75em;    //1100px i.e 1100/16 = 68.75em
+$bp-medium: 56.25em;   //900px i.e 900/16 = 56.5em
+$bp-small: 37.5em;     //600px i.e 600/16 = 37.5em
+$bp-smallest: 31.25em; //500px i.e 500/16 = 31.25em
 
 *{
   margin: 0;
